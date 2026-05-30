@@ -6,7 +6,10 @@ It's an AI-powered sports analysis system that integrates five neural network ar
 2. Classifies each detected player into Team 1 or Team 2 using an MLP
 3. Predicts player movement trajectories using an LSTM and overlays them as arrows on the video
 4. Generates position heatmaps and a court presence indicator for each team
-4. Answers natural language questions about any match frame using Gemma 4
+5. Answers natural language questions about any match frame using Gemma 4
+
+## Specifications
+As the file is too big you won't be able to preview it from here in github, just download the notebook and open it in Google Colab.
 
 ## How to run it step by step:
 The project runs entirely en Google Colab and it's advised against to use any other IDE such as Visual Studio Code as for the user to not have to manually label the images the files get automatically uploaded when their corresponding cell is ran. For this it's recommended to not use an important email, as you'll need to give Google Colab permissions to your Google Drive.
